@@ -425,7 +425,7 @@
     if (text === '') {
         noteArea.textContent = ''; // Очищаем текстовое поле
         noteArea.classList.add('placeholder');
-        noteArea.dataset.placeholder = 'Мам,здесь будут заметки для выбранных дней'; // Сохраняем плейсхолдер в атрибуте data-placeholder
+        noteArea.dataset.placeholder = 'Мам,будут заметки'; // Сохраняем плейсхолдер в атрибуте data-placeholder
         noteArea.textContent = noteArea.dataset.placeholder; // Устанавливаем плейсхолдер
     } else {
         noteArea.classList.remove('placeholder');
